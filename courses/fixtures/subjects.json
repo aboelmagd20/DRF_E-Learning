@@ -1,0 +1,49 @@
+[
+{
+  "model": "courses.subject",
+  "pk": 1,
+  "fields": {
+    "title": "Python DJANGO",
+    "slug": "python-django"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 1,
+  "fields": {
+    "owner": 1,
+    "subject": 1,
+    "title": "How to create CBV",
+    "slug": "how-to-create-cbv",
+    "overview": "in this course we will see how created a CBV using django rest frame work",
+    "created": "2025-03-07T00:49:31.506Z"
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 1,
+  "fields": {
+    "course": 1,
+    "title": "intro",
+    "description": "welocome in intro"
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 2,
+  "fields": {
+    "course": 1,
+    "title": "install requirments",
+    "description": "how install requirments"
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 3,
+  "fields": {
+    "course": 1,
+    "title": "Exam",
+    "description": "lets try solve that questions"
+  }
+}
+]
